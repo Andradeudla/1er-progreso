@@ -18,5 +18,7 @@
         else
         printf("%d no es un numero primo.", num);
 
+        printf("gracias por usar el programa");
+
     return 0;
  }
