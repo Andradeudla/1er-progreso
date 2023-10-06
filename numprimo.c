@@ -12,7 +12,9 @@
             numprimo = 0;
             break;
         }
-    
+
+        if (numprimo == 1)
+        printf("%d es un numero primo.", num);
 
     return 0;
  }
