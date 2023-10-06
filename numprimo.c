@@ -15,6 +15,8 @@
 
         if (numprimo == 1)
         printf("%d es un numero primo.", num);
+        else
+        printf("%d no es un numero primo.", num);
 
     return 0;
  }
