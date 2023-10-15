@@ -17,5 +17,7 @@ int main() {
         suma = suma + i;
     }
 
+    printf ("La suma de Gauss del nùmero %d es de: %d \n", num, suma);
+
     return 0;
 }
