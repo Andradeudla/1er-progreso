@@ -1,20 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int num, digito, suma = 0;
+    int i;
 
-    printf("Introduce un número entero: ");
-    scanf("%d", &num);
-
-    while(num != 0) {
-        digito = num % 10;
-        if(digito % 2 == 0) {
-            suma += digito;
-        }
-        num /= 10;
+    for(i = 10; i >= 1; i--) {
+        printf("%d ", 11 - i);
     }
-
-    printf("La suma de los dígitos pares es: %d \n", suma);
 
     return 0;
 }

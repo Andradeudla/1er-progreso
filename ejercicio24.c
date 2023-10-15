@@ -14,7 +14,7 @@ int main (){
         num /= 10;
     }
     
-    printf("La suma de los digitos pares es: %d \n", suma);
+    printf("La suma de los digitos pares cuando es: %d \n", suma);
 
     return 0;
 }
