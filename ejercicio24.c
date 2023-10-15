@@ -3,7 +3,7 @@ int main (){
     int num, digito; 
     int suma = 0;
     
-     printf("Introduce un número entero: ");
+     printf("Introduce un numero entero: ");
     scanf("%d", &num);
 
     while(num != 0) {
@@ -14,5 +14,7 @@ int main (){
         num /= 10;
     }
     
+    printf("La suma de los digitos pares es: %d \n", suma);
+
     return 0;
 }
