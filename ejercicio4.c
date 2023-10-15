@@ -24,5 +24,11 @@ int main() {
 
     } while (num2 < 0);
 
+    for(i = num1 + 1; i < num2; i++) {
+        printf("%d ", i);
+    }
+
+    printf("Son los números enteros entre %d y %d\n", num1, num2);
+
     return 0;
 }
