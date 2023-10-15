@@ -1,18 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2, i;
+    int i;
 
-    printf("Introduce el primer número: ");
-    scanf("%d", &num1);
+    printf("Los primeros 20 múltiplos de 3 son:\n");
 
-    printf("Introduce el segundo número: ");
-    scanf("%d", &num2);
-
-    printf("Los números enteros entre %d y %d son:\n", num1, num2);
-
-    for(i = num1 + 1; i < num2; i++) {
-        printf("%d ", i);
+    for(i = 1; i <= 20; i++) {
+        printf("%d ", 3 * i);
     }
 
     return 0;
