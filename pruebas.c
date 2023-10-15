@@ -1,13 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int i;
+    int num, digito, suma = 0;
 
-    printf("Los primeros 20 múltiplos de 3 son:\n");
+    printf("Introduce un número entero: ");
+    scanf("%d", &num);
 
-    for(i = 1; i <= 20; i++) {
-        printf("%d ", 3 * i);
+    while(num != 0) {
+        digito = num % 10;
+        if(digito % 2 == 0) {
+            suma += digito;
+        }
+        num /= 10;
     }
+
+    printf("La suma de los dígitos pares es: %d \n", suma);
 
     return 0;
 }
+
