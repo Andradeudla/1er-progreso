@@ -11,6 +11,11 @@ int main() {
             printf("Debe ingresar un número positivo.\n");
         }
     } while (num < 0);
-    
+
+    for (i = 0; i <= num ; i++)
+    {
+        suma = suma + i;
+    }
+
     return 0;
 }
