@@ -12,9 +12,9 @@ int main (){
         factorial = 1;  
         
         for (contador = 1; contador <= numero; contador = contador + 1) {
-
+            factorial = factorial * contador; 
         }
-
+        printf("El factorial es: %d\n", factorial);
     }
 
     return 0;
