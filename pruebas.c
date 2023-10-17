@@ -1,12 +1,22 @@
 #include <stdio.h>
 
 int main() {
-    int i;
+    int numero, contador, factorial;
 
-    for(i = 10; i >= 1; i--) {
-        printf("%d ", 11 - i);
+    printf("Ingrese un numero: ");
+    scanf("%d", &numero);
+
+    if (numero < 0)
+        printf("Numero equivocado, ingrese un numero positivo\n");
+    else {
+        factorial = 1;  
+        
+        for (contador = 1; contador <= numero; contador = contador + 1) {
+            factorial = factorial * contador;  
+        }
+        
+        printf("El factorial es: %d\n", factorial);
     }
 
     return 0;
 }
-
